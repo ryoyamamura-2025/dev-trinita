@@ -1,3 +1,9 @@
+---
+name: article-template
+description: 大分トリニータ戦評ブログの記事構成テンプレート・トーンルール・禁止事項。writer-agent が記事を執筆する際に参照する。
+user-invocable: false
+---
+
 # スキル: 記事構成テンプレート
 
 ## 固定テンプレート

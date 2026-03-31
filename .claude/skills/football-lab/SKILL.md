@@ -1,3 +1,9 @@
+---
+name: football-lab
+description: FOOTBALL LAB のマッチレポートURL規則・チームコード一覧・CBP指標の説明・検索クエリ設計パターン。research-agent がデータ取得を行う際に参照する。
+user-invocable: false
+---
+
 # スキル: FOOTBALL LAB データ取得
 
 ## マッチレポート URL 規則
