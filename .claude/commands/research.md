@@ -6,11 +6,8 @@
 
 以下の手順で実行してください:
 
-1. `.claude/agents/research-agent.md` を Read ツールで読む
-2. そのファイルの内容を prompt として、**Agent ツール（subagent_type: "general-purpose"）** を起動する
-   - エージェントはメインの会話とは独立したコンテキストで動作する
-   - 大量のWeb検索結果がこの会話を汚染しない
-3. エージェントが完了したら、生成された `research_cache/` ファイルのパスをユーザーに報告する
+1. **subagent "research-agent"** を起動する
+2. エージェントが完了したら、生成された `research_cache/` ファイルのパスをユーザーに報告する
 
 ## 完了後のメッセージ
 

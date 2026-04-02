@@ -11,10 +11,8 @@
 
 以下の手順で実行してください:
 
-1. `.claude/agents/writer-agent.md` を Read ツールで読む
-2. そのファイルの内容を prompt として、**Agent ツール（subagent_type: "general-purpose"）** を起動する
-   - エージェントはメインの会話とは独立したコンテキストで動作する
-3. エージェントが完了したら、生成された `articles/` ファイルのパスをユーザーに報告する
+1. **subagent "writer-agent"** を起動する
+2. エージェントが完了したら、生成された `articles/` ファイルのパスをユーザーに報告する
 
 ## 完了後のメッセージ
 

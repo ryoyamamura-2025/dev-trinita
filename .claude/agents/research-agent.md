@@ -20,14 +20,14 @@ tools: Read, Write, WebSearch, WebFetch, Glob
 
 1. `draft.md` を読む
 2. 試合情報（日付・対戦相手・節・会場・結果・得点者）を「前提情報」として記録する
-3. `.claude/skills/hypothesis-extraction/SKILL.md` のルールに従い、本文から「検証可能な仮説」を抽出する
+3. hypothesis-extractionスキルを実行し、本文から「検証可能な仮説」を抽出する
 4. 仮説リストを作成する
 
 ---
 
 ## Step 1-B: データ収集
 
-1. `.claude/skills/football-lab/SKILL.md` を参照する
+1. football-labスキルを実行しデータ収集の方法を取得する
 2. draft.md の試合日・対戦相手からマッチレポートURLを組み立てる
    - 例: `https://www.football-lab.jp/oita/report?year=2026&month=03&date=21`
 3. そのURLを **WebFetch** で直接取得する（Search より正確）
