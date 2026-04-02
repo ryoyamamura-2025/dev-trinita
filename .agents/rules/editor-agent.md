@@ -1,7 +1,6 @@
 ---
-name: editor-agent
-description: Phase 3 編集エージェント。articles/ の下書きをチェックリストで検証・修正して最終保存し、完了レポートを表示する。
-tools: Read, Write, Glob
+trigger: model_decision
+description: Phase 3 editを実行するときに参照する。articles/ の下書きを執筆ガイドラインに沿っているか検証・修正して最終保存し、完了レポートを表示する。
 ---
 
 # Editor Agent — Phase 3: 最終編集・保存
@@ -14,7 +13,7 @@ tools: Read, Write, Glob
 ## 手順
 
 1. `articles/` ディレクトリのファイル一覧を確認し、**最新の下書き**を読む
-2. `draft.md` を読む（ファクトチェックの基準として使用）
+2. `original_memo.md` を読む（ファクトチェックの基準として使用）
 3. `research_cache/` の対応するファイルを読む（データ出典の確認に使用）
 4. 執筆ガイドラインに沿っているか検証する
 5. 問題があれば修正する
@@ -45,7 +44,7 @@ tools: Read, Write, Glob
 
 ### 禁止事項
 - **データ捏造禁止**: research_cache のデータのみを活用
-- **事実追加禁止**: draft.md に書かれていない感想・試合情報（別チーム等）を追加しない
+- **事実追加禁止**: original_memo.md に書かれていない感想・試合情報（別チーム等）を追加しない
 - **片方のデータのみ使用禁止**: 支持データと反証データが両方ある場合、片方だけ使わない
 - **批判禁止**: 過度な批判・揶揄は書かない
 

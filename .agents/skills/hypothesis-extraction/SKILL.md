@@ -1,7 +1,6 @@
 ---
 name: hypothesis-extraction
 description: draft.md の感情・印象表現をデータで検証可能な仮説に変換するルール。research-agent が仮説抽出を行う際に参照する。draft.md を読んだ後、このスキルのルールに従って仮説リストを作成すること。
-user-invocable: false
 ---
 
 # スキル: 仮説抽出（感情表現 → 検証可能仮説の変換）

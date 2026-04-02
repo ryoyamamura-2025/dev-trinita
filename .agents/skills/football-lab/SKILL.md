@@ -1,7 +1,6 @@
 ---
 name: football-lab
 description: FOOTBALL LAB（https://www.football-lab.jp）のサイト構造・URL規則・データ取得戦略・検索クエリパターン・注意事項を含む参照スキル。research-agent がJリーグのスタッツ・CBP・チームスタイル指標・マッチレポート・選手データを取得する際に必ず参照すること。チームコードが必要な場合は references/team-codes.md を、指標の詳細定義が必要な場合は references/metrics.md を参照すること。
-user-invocable: false
 ---
 
 # スキル: FOOTBALL LAB データ取得
