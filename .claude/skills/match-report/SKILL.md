@@ -30,4 +30,4 @@ uv run python .claude/skills/match-report/match_report.py {date} {game_id} resea
 uv run python .claude/skills/match-report/match_report.py {date} "" research_cache
 ```
 
-**Step 4**: 生成されたファイルのパス（`research_cache/oita_{date}_report.md`）をユーザーに報告する
+**Step 4**: 生成されたファイルのパス（`research_cache/oita_{date}_report.md`）を報告する
